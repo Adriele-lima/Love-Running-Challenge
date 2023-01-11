@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 
+@keyframes hero-zoom {
+    from {scale: 1;}
+    to {scale: 1.1;}
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -49,18 +54,37 @@ h1, h2, h3 {
     justify-content: space-between;
 }
 
-#principal-photo-box {
-    height: 600px;
+#principal-box {
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #principal-photo {
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-image: url('images/form-bg-compressed.jpg') no-repeat center center;
+    background-image: url('../images/form-bg-compressed.jpg');
+    background-position: center;
+    background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+#text-box {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
 }
