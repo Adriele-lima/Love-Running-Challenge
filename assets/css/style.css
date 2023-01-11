@@ -48,3 +48,19 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
 }
+
+#principal-photo-box {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#principal-photo {
+    height: 600px;
+    width: 100%;
+    background-image: url('images/form-bg-compressed.jpg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
