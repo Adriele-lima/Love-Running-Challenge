@@ -49,11 +49,6 @@ h1, h2, h3 {
     letter-spacing: 3px;
 }
 
-.section {
-    display: flex;
-    justify-content: space-between;
-}
-
 #principal-box {
     height: 700px;
     width: 100%;
@@ -87,4 +82,19 @@ h1, h2, h3 {
     position: absolute;
     color: #fff;
     font-weight: bold;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#circle-image {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+    border-color: #cccccc;  
 }
