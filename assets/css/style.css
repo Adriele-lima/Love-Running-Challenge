@@ -84,9 +84,10 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-.section {
+.main-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #circle-image {
@@ -97,4 +98,53 @@ h1, h2, h3 {
     border-width: 1px;
     padding: 30px;
     border-color: #cccccc;  
+}
+
+#h2-middle {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 280%;
+    color: #252525;
+    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;
+}
+
+.section1 {
+    width: 385px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section1 h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 150%;
+    color: #252525;
+    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;
+}
+
+.section2 {
+    align-content: center;
+}
+
+.section3 {
+    width: 385px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: right;
+}
+
+.section3 h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 150%;
+    color: #252525;
+    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;  
 }
