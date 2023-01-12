@@ -15,7 +15,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: #e8edeb;
+    background-color: rgb(241, 241, 241);
 }
 
 header {
@@ -43,10 +43,26 @@ h1, h2, h3 {
 
 .menu {
     display: flex;
-    gap: 40px;
+    gap: 40px;     
+}
+
+.menu a {
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 3px;
+    color: #3a3a3a;
+} 
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.topo a {
+    text-decoration: none;
+}
+
+#ativo:active {
+    text-decoration-line: underline;
 }
 
 #principal-box {
@@ -119,7 +135,6 @@ h1, h2, h3 {
 }
 
 .section1 h2 {
-    text-decoration: underline;
     font-weight: bold;
     font-size: 150%;
     color: #252525;
@@ -141,10 +156,15 @@ h1, h2, h3 {
 }
 
 .section3 h2 {
-    text-decoration: underline;
     font-weight: bold;
     font-size: 150%;
     color: #252525;
     letter-spacing: 3px;
     font-family: Oswald, sans-serif;  
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
