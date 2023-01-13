@@ -168,3 +168,49 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
+
+.bottom-blocks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+    gap: 0;
+    background-image: url('../images/DublinDocklands.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.monday {
+    padding: 30px;
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.wednesday {
+    padding: 30px;
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.friday {
+    padding: 30px;
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.saturday {
+    padding: 30px;
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.sunday {
+    padding: 30px;
+    width: 20%;
+    height: 180px;
+    text-align: center;
+}
