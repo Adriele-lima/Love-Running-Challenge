@@ -276,3 +276,56 @@ li a {
 .gallery > img {
     width: 100%;
 }
+
+.sign-up-photo {
+    size: 1000px;
+    width: 100%;
+}
+
+.sign-up-photo {
+    background-image: url('../images/Untitled.jpg');
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.sign-up-box {
+    width: 400px;
+    height: 350px;
+    padding: 35px 30px;
+    background-color: rgba(61, 59, 59, 0.5);
+    top: 250px;
+    left: 180px;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-box h1 {
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: Oswald, sans-serif;
+}
+
+.sign-up-box input {
+    padding: 6px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.sign-up-box label {
+    margin-top: 15px;
+}
+
+#submit {
+    background-color: rgba(241, 109, 107);
+    border: 1px solid rgba(241, 109, 107);
+    color: #fff;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+
