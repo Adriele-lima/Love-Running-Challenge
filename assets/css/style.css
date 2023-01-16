@@ -266,3 +266,13 @@ li a {
     color: #3a3a3a;
     font-weight: bold;
 }
+
+.gallery {
+   line-height: 0;
+   column-count: 4;
+   column-gap: 0;
+}
+
+.gallery > img {
+    width: 100%;
+}
